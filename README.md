@@ -69,3 +69,7 @@ python3 skills/harmonyos-device-qa/scripts/ui_tree_summarize.py /tmp/ui.json /tm
 - On the tested target, `uitest uiInput` is the stable gesture path and `keyEvent Home` executed successfully.
 - `dumpLayout` output format may vary by image and ArkXTest version. The tested device returns JSON with an `attributes` + `children` structure, and the helper scripts are written to tolerate both XML and JSON layouts.
 - `snapshot_display` is usually the preferred full-screen capture path for performance.
+
+## Acknowledgements
+
+This project started as a 1:1 port of `Test Android Apps`, then was adapted for HarmonyOS and OpenHarmony device workflows.
