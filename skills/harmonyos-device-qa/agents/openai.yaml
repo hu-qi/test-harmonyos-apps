@@ -1,0 +1,15 @@
+interface:
+  display_name: "HarmonyOS Device QA"
+  short_description: "Drive HarmonyOS device QA with hdc"
+
+dependencies:
+  tools:
+    - type: "cli"
+      value: "hdc"
+      description: "HarmonyOS Device Connector for device and app control"
+    - type: "cli"
+      value: "python3"
+      description: "Run UI tree helper scripts"
+    - type: "cli"
+      value: "hvigorw"
+      description: "Build HarmonyOS HAP variants when the project uses Hvigor"

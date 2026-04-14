@@ -1,0 +1,6 @@
+interface:
+  display_name: "Test HarmonyOS Apps"
+  short_description: "Reproduce issues, inspect UI, and capture evidence from HarmonyOS devices"
+  icon_small: "./assets/test-harmonyos-apps-small.svg"
+  icon_large: "./assets/app-icon.png"
+  default_prompt: "Use Test HarmonyOS Apps to build an app, launch it on a connected device or emulator, reproduce the issue with hdc-driven UI steps, and capture screenshots plus hilog output."
