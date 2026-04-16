@@ -30,8 +30,8 @@
       "Read"
     ],
     "websiteURL": "https://github.com/hu-qi/test-harmonyos-apps",
-    "privacyPolicyURL": "https://github.com/hu-qi/test-harmonyos-apps",
-    "termsOfServiceURL": "https://github.com/hu-qi/test-harmonyos-apps",
+    "privacyPolicyURL": "https://github.com/hu-qi/test-harmonyos-apps/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/hu-qi/test-harmonyos-apps/blob/main/TERMS.md",
     "defaultPrompt": [
       "Use Test HarmonyOS Apps to reproduce a device issue with hdc, then capture screenshots, UI state, and hilog"
     ],
