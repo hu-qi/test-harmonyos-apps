@@ -1,6 +1,6 @@
 # Test HarmonyOS Apps
 
-`Test HarmonyOS Apps` is a Codex plugin scaffolded as a 1:1 port of `Test Android Apps`, with the Android command chain replaced by HarmonyOS and OpenHarmony device tooling.
+`Test HarmonyOS Apps` is a Codex skill plugin for HarmonyOS and OpenHarmony device QA. It was scaffolded as a 1:1 port of Codex's `test-android-apps`, then adapted by replacing the Android command chain with HarmonyOS and OpenHarmony device tooling.
 
 ## Structure
 
@@ -72,4 +72,4 @@ python3 skills/harmonyos-device-qa/scripts/ui_tree_summarize.py /tmp/ui.json /tm
 
 ## Acknowledgements
 
-This project started as a 1:1 port of `Test Android Apps`, then was adapted for HarmonyOS and OpenHarmony device workflows.
+This project was inspired by Codex's `test-android-apps` skill and started as a 1:1 port of that workflow. It was then adapted for HarmonyOS and OpenHarmony device QA, replacing `adb`, `uiautomator`, and `logcat` flows with `hdc`, `uitest`, and `hilog`.
